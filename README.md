@@ -23,7 +23,7 @@ Using it is really simple:
 
        protected function getProxy()
        {
-          return new \bedezign\yii2\migrationproxy\MigrationProxy(['migrationPath' => '@vendor/vendor-migration=folder/migrations']);
+          return new \bedezign\yii2\migrationproxy\MigrationProxy(['migrationPath' => '@vendor/vendor-migration-folder/migrations']);
        }
     }
 
